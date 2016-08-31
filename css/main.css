@@ -1,39 +1,41 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900';
 
-body { margin: 60px auto; width: 70%; }
+body { margin: 0 auto; width: 70%; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-p { font-family: 'Lato'; font-weight: 400; font-size: 1.25em; line-height: 1.5em; color: #333; padding-bottom: 0.5em; }
-ul { font-family: 'Lato'; font-weight: 400; font-size: 1.25em; line-height: 1.5em; color: #333; }
+p { font-family: 'Lato'; font-weight: 400; font-size: 1.1em; line-height: 1.5em; color: #333; padding-bottom: 0.5em; }
+ul { font-family: 'Lato'; font-weight: 400; font-size: 1.1em; line-height: 1.5em; color: #333; }
 em { font-style: italic; }
-p.title { font-style: italic; margin-left: 5%; margin-right: 5%; }
+p.title { font-style: italic; color: #511c6c; margin-left: 5%; margin-right: 5%; }
 
-h1 { font-family: 'Lato', 'Sans-Serif'; font-weight: 900; color: #511c6c; }
-h2 { font-family: 'Lato', 'Sans-Serif'; font-weight: 400; font-style: italic; color: #511c6c; }
-h3, h4 { font-family: 'Lato', 'Sans-Serif'; font-weight: 700 }
-h1 { font-size: 2em;  }
-h2 { font-size: 1.5em; }
+h1 { font-family: 'Lato', 'Sans-Serif'; font-weight: 900; color: #511c6c; 
+     font-size: 2em; padding-top: 1em; }
+h2 { font-family: 'Lato', 'Sans-Serif'; font-weight: 400; font-style: italic; color: #511c6c; padding-bottom: 1em; font-size: 1.5em; }
+h3, h4 { font-family: 'Lato', 'Sans-Serif'; font-weight: 700; color: #511c6c; }
 h3 { font-size: 1.5em; }
 h4 { font-size: 1.25em; }
+h5 { font-family: 'Lato', 'Sans-Serif';
+     font-style: italic;
+     font-weight: 400;
+     font-size: 1.25em;
+     color: #511c6c; }
 
-nav ul, footer ul { font-size: 0.8em; font-family: 'Lato', 'Sans-Serif'; padding-top: 1em; list-style: none; font-weight: 400; }
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+ul li { margin-left: 2em; }
+
+nav ul { font-size: 0.8em; font-family: 'Lato', 'Sans-Serif'; list-style: none; font-weight: 400; }
+nav ul li { display: inline; margin-left: 0px; margin-right: 20px; }
+
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; padding-top: 0.25em; 
-margin-top: 2em; }
-.header { border-bottom: 1px solid #d5d5d5; padding-bottom: 0.25em; margin-top: 2em; }
-
-/* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
+margin-top: 1.5em; }
+.header { border-bottom: 1px solid #d5d5d5; padding-bottom: 0.25em; margin-bottom: 1.5em; }
 
 img.poster { margin: 0 0 0 0; width: 100%; }
 img.sponsor { margin: 0 0 0 0; width: 100%; }
 img.org{ margin: 0 0 0 0; height: 75px; }
 img.submenu{ margin: 0 0 0 0; height: 0.5em; }
-p { font-size: 1em; font-weight: 400; }
 
 .btn {
     display: inline-block;
@@ -43,8 +45,8 @@ p { font-size: 1em; font-weight: 400; }
     text-align: centre;
     background-color: #c9bdd3;
     color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     width: 100%;
     text-align: center;
     margin: 0 auto;

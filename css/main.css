@@ -1,53 +1,110 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900';
 
-body { margin: 0 auto; } /* width: 70%; } */
+html { font-size: 20px; }
+
+body { margin: 0 auto; 
+       /* used to put wdith to 70% here */
+      /*    Advanced Checkbox Hack - for clickable responsive menu  */
+       -webkit-animation: bugfix infinite 1s;
+     }
+@-webkit-keyframes bugfix {
+  from { padding: 0; }
+  to { padding: 0; }
+}
+
+input[type=checkbox] {
+ position: absolute;
+ top: -9999rem;
+ left: -9999rem;
+}
+label { /* make label behave like button/link */
+ cursor: pointer;
+ user-select: none;
+ display: none;
+ font-size: 1rem;
+}
+      /*  End of ACH */
+nav[role="top-menu"] {
+ margin: 0;
+ border-style: none none solid none;
+ border-color: #c9bdd3;
+ border-width: 0.2rem;
+}
+nav[role="top-menu"] ul {
+ margin: 0;
+ padding: 0.5rem 0 0.5rem 0 ;
+ line-height: 100% ;
+}
+nav[role="top-menu"] li {
+ font-weight: normal;
+ font-size: 0.8rem;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ display: inline-block;
+ *display:inline; /* IE7 */
+}
+nav[role="top-menu"] a {
+ padding: 0.2rem 0.75rem;
+ text-decoration: none;
+ line-height: 100%;
+}
+nav[role="top-menu"] a:link, nav[role="top-menu"] a:visited {
+ color: ##e0dae6;
+}
+nav[role="top-menu"] a:hover {
+ color: #c9bdd3;
+}
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-p { font-family: 'Lato'; font-weight: 400; font-size: 1.1em; line-height: 1.5em; color: #333; padding-bottom: 0.5em; }
-ul { font-family: 'Lato'; font-weight: 400; font-size: 1.1em; line-height: 1.5em; color: #333; }
-em { font-style: italic; }
+p { font-family: 'Lato'; font-weight: 400; font-size: 1.1rem; line-height: 1.5rem; color: #333; padding-bottom: 0.5rem; }
+ul { font-family: 'Lato'; font-weight: 400; font-size: 1.1rem; line-height: 1.5rem; color: #333; }
+rem { font-style: italic; }
 p.title { font-style: italic; color: #511c6c; margin-left: 5%; margin-right: 5%; }
 
 h1 { font-family: 'Lato', 'Sans-Serif'; font-weight: 900; color: #511c6c; 
-     font-size: 2em; padding-top: 1em; }
-h2 { font-family: 'Lato', 'Sans-Serif'; font-weight: 400; font-style: italic; color: #511c6c; padding-bottom: 1em; font-size: 1.5em; }
+     font-size: 2rem; padding-top: 1rem; }
+h2 { font-family: 'Lato', 'Sans-Serif'; font-weight: 400; font-style: italic; color: #511c6c; padding-bottom: 1rem; font-size: 1.5rem; }
 h3, h4 { font-family: 'Lato', 'Sans-Serif'; font-weight: 700; color: #511c6c; }
-h3 { font-size: 1.5em; padding-bottom: 0.2em; }
-h4 { font-size: 1.25em; padding-bottom: 0.1em; }
+h3 { font-size: 1.5rem; padding-bottom: 0.2rem; }
+h4 { font-size: 1.25rem; padding-bottom: 0.1rem; }
 h5 { font-family: 'Lato', 'Sans-Serif';
      font-style: italic;
      font-weight: 400;
-     font-size: 1.25em;
+     font-size: 1.25rem;
      color: #511c6c; 
-     padding-bottom: 0.1em; }
+     padding-bottom: 0.1rem; }
 
-ul li { margin-left: 2em; }
+ul li { margin-left: 2rem; }
 
-nav ul { font-size: 0.8em; font-family: 'Lato', 'Sans-Serif'; list-style: none; font-weight: 400; }
+nav ul { font-size: 0.8rem; font-family: 'Lato', 'Sans-Serif'; list-style: none; font-weight: 400; }
 nav ul li { display: inline; margin-left: 0px; margin-right: 20px; }
 
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; padding-top: 0.25em; 
-margin-top: 1.5em; }
-.header { border-bottom: 1px solid #d5d5d5; padding-bottom: 0.25em; margin-bottom: 1.5em; }
+footer { border-top: 1px solid #d5d5d5; font-size: .8rem; padding-top: 0.25rem; 
+margin-top: 1.5rem; }
+.header { border-bottom: 1px solid #d5d5d5; padding-bottom: 0.25rem; margin-bottom: 1.5rem; }
 
 img.poster { margin: 0 0 0 0; width: 100%; }
 img.sponsor { margin: 0 0 0 0; width: 100%; }
-img.org{ margin: 0 0 0 0; height: 75px; }
-img.submenu{ margin: 0 0 0 0; height: 0.5em; }
+img.org{ margin: 0 0 0 0; height: 3rem; }
+img.org.left{ float: left; }
+img.org.middle{ display: block; margin: 0 auto; }
+img.org.right{ float: right; }
+img.submenu{ margin: 0 0 0 0; height: 0.5rem; }
 
 .btn {
     display: inline-block;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: centre;
     background-color: #c9bdd3;
     color: #fff;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -69,6 +126,7 @@ img.submenu{ margin: 0 0 0 0; height: 0.5em; }
  }
 } */
 @media only screen and (max-width: 767px) {
+ html { font-size: 12px; }
  body { width: 98%; }
  .span_1_of_3, .span_2_of_3, .span_3_of_3 {
    width: 100%;
@@ -78,6 +136,60 @@ img.submenu{ margin: 0 0 0 0; height: 0.5em; }
    width: 100%;
    margin-left: 0;
  }
- h1 { font-size: 1em; }
- h2 { font-size: 0.8em; }
+img.org.left { display: block; margin: 0 auto; float: auto; }
+img.org.right { display: block; margin: 0 auto; float: auto; }
+
+/* Primary navigation */
+  nav[role="top-menu"] ul {
+      display:none;
+    }
+
+  nav[role="top-menu"] label {
+      position:relative;
+      display:inline;
+      float: right;
+      padding-right: 4rem;
+      padding-top: 3rem;
+      background-image: url("../images/menu.png") ;
+      background-repeat: no-repeat ;
+      background-size: 4rem 3rem ;
+    }
+    
+    nav[role="top-menu"] input[type=checkbox]:checked ~ ul {
+      display:block;
+     }
+        
+     nav[role="top-menu"] input[type=checkbox]:checked ~ li {
+        display:block;
+        }
+    
+     nav[role="top-menu"] input[type=checkbox]:checked ~ label {
+      background-image: url("../images/menu.png") ;
+      }
+nav[role="top-menu"] {
+			position: relative;
+			min-height: 3.1rem;
+		}	
+		nav[role="top-menu"] ul {
+                        margin: 0 auto;
+                        float: right;
+			width: 60%;
+			position: absolute;
+			top: 3rem;
+			right: 0;
+			border: none ;
+			background: #c9bdd3;
+			border-radius: 0.33rem;
+			box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.6);
+		}
+		nav[role="top-menu"] li {
+			display: block;
+			margin: 0;
+		}
+		nav[role="top-menu"] a:link, nav[role="top-menu"] a:visited, nav[role="top-menu"] a:hover {
+			display: block;
+			padding: 0.5rem 0.5rem 0.5rem 2rem;
+			text-align: left;
+		        color: #000;
+		}
 } 

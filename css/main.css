@@ -61,14 +61,14 @@ img.submenu{ margin: 0 0 0 0; height: 0.5em; }
 @media only screen and (max-width: 767px) {
  body { width: 80%; }
  }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {
  body { width: 90%; }
  .span_1_of_3, .span_2_of_3, .span_3_of_3 {
    width: 100%;
    margin-left: 0;
  }
-}
-@media only screen and (max-width: 479px) {
+} */
+@media only screen and (max-width: 767px) {
  body { width: 98%; }
  .span_1_of_3, .span_2_of_3, .span_3_of_3 {
    width: 100%;

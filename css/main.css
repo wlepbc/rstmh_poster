@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900';
 
-body { margin: 0 auto; width: 70%; }
+body { margin: 0 auto; } /* width: 70%; } */
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
@@ -14,13 +14,14 @@ h1 { font-family: 'Lato', 'Sans-Serif'; font-weight: 900; color: #511c6c;
      font-size: 2em; padding-top: 1em; }
 h2 { font-family: 'Lato', 'Sans-Serif'; font-weight: 400; font-style: italic; color: #511c6c; padding-bottom: 1em; font-size: 1.5em; }
 h3, h4 { font-family: 'Lato', 'Sans-Serif'; font-weight: 700; color: #511c6c; }
-h3 { font-size: 1.5em; }
-h4 { font-size: 1.25em; }
+h3 { font-size: 1.5em; padding-bottom: 0.2em; }
+h4 { font-size: 1.25em; padding-bottom: 0.1em; }
 h5 { font-family: 'Lato', 'Sans-Serif';
      font-style: italic;
      font-weight: 400;
      font-size: 1.25em;
-     color: #511c6c; }
+     color: #511c6c; 
+     padding-bottom: 0.1em; }
 
 ul li { margin-left: 2em; }
 
@@ -52,3 +53,31 @@ img.submenu{ margin: 0 0 0 0; height: 0.5em; }
     margin: 0 auto;
 }
 
+/* @media only screen and (max-width: 959px) { } */
+/* @media only screen and (min-width: 768px) and (max-width: 959px) { } */
+@media only screen and (min-width: 768px) {
+ body { width: 70%; }
+}
+@media only screen and (max-width: 767px) {
+ body { width: 80%; }
+ }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ body { width: 90%; }
+ .span_1_of_3, .span_2_of_3, .span_3_of_3 {
+   width: 100%;
+   margin-left: 0;
+ }
+}
+@media only screen and (max-width: 479px) {
+ body { width: 98%; }
+ .span_1_of_3, .span_2_of_3, .span_3_of_3 {
+   width: 100%;
+   margin-left: 0;
+ }
+ .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+   width: 100%;
+   margin-left: 0;
+ }
+ h1 { font-size: 1em; }
+ h2 { font-size: 0.8em; }
+} 

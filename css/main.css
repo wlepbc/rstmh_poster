@@ -167,11 +167,12 @@ img.org.right { display: block; margin: 0 auto; float: auto; }
      nav[role="top-menu"] input[type=checkbox]:checked ~ label {
       background-image: url("../images/menu.png") ;
       }
-nav[role="top-menu"] {
+
+      nav[role="top-menu"] {
 			position: relative;
 			min-height: 3.1rem;
 		}	
-		nav[role="top-menu"] ul {
+      nav[role="top-menu"] ul {
                         margin: 0 auto;
                         float: right;
 			width: 60%;
@@ -183,11 +184,11 @@ nav[role="top-menu"] {
 			border-radius: 0.33rem;
 			box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.6);
 		}
-		nav[role="top-menu"] li {
+       nav[role="top-menu"] li {
 			display: block;
 			margin: 0;
 		}
-		nav[role="top-menu"] a:link, nav[role="top-menu"] a:visited, nav[role="top-menu"] a:hover {
+       nav[role="top-menu"] a:link, nav[role="top-menu"] a:visited, nav[role="top-menu"] a:hover {
 			display: block;
 			padding: 0.5rem 0.5rem 0.5rem 2rem;
 			text-align: left;

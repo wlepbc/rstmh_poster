@@ -24,6 +24,7 @@ label { /* make label behave like button/link */
  font-size: 1rem;
 }
       /*  End of ACH */
+
 nav[role="top-menu"] {
  margin: 0;
  border-style: none none solid none;
@@ -56,26 +57,39 @@ nav[role="top-menu"] a:hover {
  color: #c9bdd3;
 }
 
+/* ToC */
+#markdown-toc {
+ margin: 0 auto;
+ float: right;
+ border-left: 1px solid #d5d5d5;
+ border-bottom: 1px solid #d5d5d5;
+}
+#markdown-toc li {
+ list-style: none;
+ font-size: 0.7rem;
+}
+/* end of ToC */
+
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-p { font-family: 'Lato'; font-weight: 400; font-size: 1.1rem; line-height: 1.5rem; color: #333; padding-bottom: 0.5rem; }
+p { font-family: 'Lato'; font-weight: 400; font-size: 1.1rem; line-height: 1.5rem; color: #333; padding-bottom: 0.5rem; padding-top: 0.5rem; }
 ul { font-family: 'Lato'; font-weight: 400; font-size: 1.1rem; line-height: 1.5rem; color: #333; }
 rem { font-style: italic; }
-p.title { font-style: italic; color: #511c6c; margin-left: 5%; margin-right: 5%; }
+/* p.title { font-style: italic; color: #511c6c; margin-left: 5%; margin-right: 5%; } */
 
 h1 { font-family: 'Lato', 'Sans-Serif'; font-weight: 900; color: #511c6c; 
      font-size: 2rem; padding-top: 1rem; }
 h2 { font-family: 'Lato', 'Sans-Serif'; font-weight: 400; font-style: italic; color: #511c6c; padding-bottom: 1rem; font-size: 1.5rem; }
 h3, h4 { font-family: 'Lato', 'Sans-Serif'; font-weight: 700; color: #511c6c; }
-h3 { font-size: 1.5rem; padding-bottom: 0.2rem; }
-h4 { font-size: 1.25rem; padding-bottom: 0.1rem; }
+h3 { font-size: 1.5rem; padding-bottom: 0.3rem; padding-top: 0.75rem; }
+h4 { font-size: 1.25rem; padding-bottom: 0.2rem; padding-top: 0.2rem; }
 h5 { font-family: 'Lato', 'Sans-Serif';
      font-style: italic;
      font-weight: 400;
      font-size: 1.25rem;
      color: #511c6c; 
-     padding-bottom: 0.1rem; }
+     padding-bottom: 0.1rem; padding-top: 0.1rem; }
 
 ul li { margin-left: 2rem; }
 
@@ -83,9 +97,9 @@ nav ul { font-size: 0.8rem; font-family: 'Lato', 'Sans-Serif'; list-style: none;
 nav ul li { display: inline; margin-left: 0px; margin-right: 20px; }
 
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8rem; padding-top: 0.25rem; 
+footer { border-top: 0.2rem solid #c9bdd3; font-size: .8rem; padding-top: 0.25rem; 
 margin-top: 1.5rem; }
-.header { border-bottom: 1px solid #d5d5d5; padding-bottom: 0.25rem; margin-bottom: 1.5rem; }
+.header { border-bottom: none; padding-bottom: 0.25rem; margin-bottom: 1.5rem; }
 
 img.poster { margin: 0 0 0 0; width: 100%; }
 img.sponsor { margin: 0 0 0 0; width: 100%; }
@@ -195,3 +209,4 @@ img.org.right { display: block; margin: 0 auto; float: auto; }
 		        color: #000;
 		}
 } 
+

@@ -3,9 +3,7 @@ layout: default
 title: Methods
 ---
 
-### Leprosy
-
-Our approach is to use back-calculation in a Bayesian framework to provide probabalistic inferences about leprosy from reported diagnoses.
+### Introduction
 
 ### Millenium goals
 

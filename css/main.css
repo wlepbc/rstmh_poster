@@ -154,8 +154,8 @@ img.submenu{ margin: 0 0 0 0; height: 0.5rem; }
    width: 100%;
    margin-left: 0;
  }
-img.org.left { display: block; margin: 0 auto; float: auto; }
-img.org.right { display: block; margin: 0 auto; float: auto; }
+img.org.left { display: block; margin: 0 auto; float: none; }
+img.org.right { display: block; margin: 0 auto; float: none; }
 
 /* Primary navigation */
   nav[role="top-menu"] ul {

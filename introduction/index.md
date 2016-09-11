@@ -15,9 +15,14 @@ In 1991, the World Health Assembly resolved to eliminate leprosy as a pubic heal
 
 The Millenium Development Goals set a new target for leprosy control. This is a reduction in the number of new cases with grade 2 disability to below one per million of the global population by 2020. There is evidence that the degree of leprosy-related impairment is linked to the delay between onset of clinical symptoms and diagnosis.
 
-Appropriate assessment and setting of goals requires information about the current situation and possible future outcomes. We use back-calculation to provide estimates of the underlying  incidence of undiagnosed clinical and sub-clinical cases. The back-calculation is applied in a Bayesian context, giving probabalistic outcomes which are reflective of the possible variability in outcomes.
+Appropriate assessment and setting of goals requires information about the current situation and possible future outcomes. We use back-calculation to provide both:
+* estimates of the underlying  incidence of undiagnosed clinical and sub-clinical cases, and
+* short-term forecasts of future outcomes.
+
+The back-calculation is applied in a Bayesian context, giving probabalistic outcomes which are reflective of the possible variability in outcomes.
 
 ### Aims
 
 The project is intended to provide analyses to support the achievement of the Millenium Development Goals, and the management of leprosy control programmes in general.
 
+This poster is intended to introduce the study and it's potential to the RSTMH audience.

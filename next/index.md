@@ -20,7 +20,7 @@ The results for Espirito Santo illustrate how well the model fits to the observe
 
 There are considerable differences in the results for different states.
 
-### Addressing the millenium goals
+### Addressing the Roadmap goals
 
-We have demonstrated the utility of our approach for making inferences about the underlying levels of leprosy and short-term forecasting. For the rest of our project we will focus directly on addressing the Millenium Development Goals, adapting the back-calculation to include grade 2 disability and analysing national-level data sets to give an overview of the global goals.
+We have demonstrated the utility of our approach for making inferences about the underlying levels of leprosy and short-term forecasting. For the rest of our project we will focus directly on addressing the WHO Roadmap Goals, adapting the back-calculation to include grade 2 disability and analysing national-level data sets to give an overview of the global goals.
 
